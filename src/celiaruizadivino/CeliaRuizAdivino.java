@@ -17,8 +17,8 @@ public class CeliaRuizAdivino {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int n = 10,cont = 10;
-        int x = (int) (50 *Math.random());
+        int n = 0,cont = 0;
+        int x = (int)(Math.random()*(50-10+1)+10);
         //System.out.print(x);
         Scanner sc = new Scanner(System.in);
         do {
